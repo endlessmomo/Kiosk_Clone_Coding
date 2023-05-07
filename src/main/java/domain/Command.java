@@ -11,8 +11,8 @@ public enum Command {
     UPLOAD("0"),
     VIEWITEM("1"),
     INTOCART("2"),
-    VIEWCART("2"),
-    BUY("3"),
+    VIEWCART("3"),
+    BUY("4"),
     QUIT("Q");
 
     private static final String INVALID_COMMAND_MESSAGE = "올바르지 않은 커맨드입니다.";

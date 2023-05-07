@@ -1,14 +1,10 @@
-package domain;
+package domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-
-// Object
-public class Item {
-    String name;
-
-
+public class IntoCartDto {
+    private String Order;
 }

@@ -1,6 +1,8 @@
 package view;
 
 import domain.dto.CommandDto;
+import domain.dto.IntoCartDto;
+import domain.dto.UploadDto;
 import util.Print;
 
 import java.util.Scanner;
@@ -16,7 +18,7 @@ public class InputView {
         return new CommandDto(command);
     }
 
-    /*public UploadDto readUpload() {
+    public UploadDto readUpload() {
         Print.categoryType();
         String uploadInfo = sc.nextLine();
 
@@ -30,7 +32,7 @@ public class InputView {
         return new IntoCartDto(intoCartDto);
     }
 
-    public int readMoney() {
+    /*public int readMoney() {
         Print.putMoney();
         String money = sc.nextLine();
 
